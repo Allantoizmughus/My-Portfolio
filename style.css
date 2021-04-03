@@ -1,0 +1,24 @@
+#home{
+    background-image: url("backgpic.jpg");
+    background-size: contain;
+}
+nav{
+    font-size: 25px;
+   
+}
+nav a{
+    margin: 10px;
+    border: 1px turquoise;
+    background-color: cyan;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgb(240, 134, 240);
+    color: black;
+    border-radius: 7px;
+}
+#about{
+    background-image: url("Magazine.jpg");
+    background-size: contain;
+    color: white;
+}
