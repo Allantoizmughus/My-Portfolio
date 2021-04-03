@@ -1,7 +1,16 @@
 #home{
     background-image: url("backgpic.jpg");
     background-size: contain;
+    margin: 0px;
 }
+#profile{
+    shape-outside: circle();
+    clip-path: circle();
+    width: 200px;
+    height: 200px;
+    margin-left: 470px;
+}
+
 nav{
     font-size: 25px;
    
@@ -21,4 +30,72 @@ a:hover{
     background-image: url("Magazine.jpg");
     background-size: contain;
     color: white;
+}
+
+#overlay{
+    background-color: rgba(0, 0, 138, 0.4);
+    background-size: cover;
+}
+#graduation{
+  shape-outside: circle();  
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+h1{
+    margin-left: 335px;
+}
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 25px;
+    margin-left: 10px;
+}
+h4{
+    font-size: 23px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+p{
+    font-size: 18px;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+ol li{
+    font-size: 18px;
+    font-weight: bold;
+}
+ul li{
+    font-size: 22px;
+    font-style: italic;
+}
+ul{
+    margin-top: -2px;
+}
+#contacts{
+    background-color: rgba(0, 0, 139, 0.5);
+}
+#email{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img1{
+    margin-right: 5px;
+}
+#phone{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img2{
+    margin-right: 8px;
+}
+#link{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img3{
+    margin-right: 10px;
 }
